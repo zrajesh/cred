@@ -1,10 +1,12 @@
+import React from 'react';
+import HomePage from './pages/HomePage';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <h1>CRED - Initial setup</h1>
+    <div>
+    <HomePage />
     </div>
   );
-}
+};
 
 export default App;

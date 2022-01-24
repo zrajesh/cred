@@ -1,0 +1,14 @@
+@import "./assets/fonts.scss";
+@import "./_variables.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Gilroy, sans-serif;
+  box-sizing: border-box;
+  background-color: $bg-black;
+  color: $white;
+}
