@@ -25,11 +25,6 @@ const ProductShowcase = () => {
                 oberserver.observe(ref.current)
             }
         }
-        return () => {
-            if(ref.current) {
-                oberserver.unobserve(ref.current);
-            }
-        }
     });
 
     return (
