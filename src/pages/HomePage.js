@@ -6,6 +6,9 @@ import Hero from '../components/Hero';
 import ProductShowcase from '../components/ProductShowcase';
 import Security from '../components/Security';
 import Header from '../components/utility/Header';
+import WindowPeak from '../components/WindowPeak';
+
+import "../utility/common.scss";
 
 const HomePage = () => {
     return (
@@ -16,6 +19,9 @@ const HomePage = () => {
             <FeelSpecial />
             <Brands />
             <Experience />
+            <div className="non-mobile">
+            <WindowPeak />
+            </div>
             <Security />
         </div>
     );
