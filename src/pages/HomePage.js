@@ -1,4 +1,5 @@
 import React from 'react';
+import Brands from '../components/Brands';
 import Experience from '../components/Experience';
 import FeelSpecial from '../components/FeelSpecial';
 import Hero from '../components/Hero';
@@ -13,6 +14,7 @@ const HomePage = () => {
             <Hero />
             <ProductShowcase />
             <FeelSpecial />
+            <Brands />
             <Experience />
             <Security />
         </div>
